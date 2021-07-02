@@ -44,7 +44,7 @@ To draw a single line on the left and right lanes, consisted of the following st
 
 Example image showing the major steps of the pipeline
 
-![Solid White Curve][./test_images_output/solidWhiteCurve.jpg]
+![Solid White Curve](test_images_output/solidWhiteCurve.jpg)
 
 ### 2. Identify potential shortcomings with your current pipeline
 One potential shortcoming would be that the pipeline does not work for steeply curved roads. For such roads the pipeline would detect erroneous slanting lines and would not have a proper visualization. One resolution would be to dynamically reduce the starting point of the lines as the lanes would appear to be lines near the camera but curve out eventually.
